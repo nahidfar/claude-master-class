@@ -40,7 +40,7 @@ only for local source documents. Do not use confidential employer/third-party re
 
 ## Instructor Readiness
 
-- Distribute `https://github.com/nahidf_microsoft/claude-master-class` and starter
+- Distribute `https://github.com/nahidfar/claude-master-class` and starter
   branch `main`. This repository is private: invite students and confirm acceptance
   before class, or provide an authorized starter ZIP. Do not assume URL access.
 - This repository already has the standalone starter at its root. Include the

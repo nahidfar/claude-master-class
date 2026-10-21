@@ -42,7 +42,7 @@ React/Next.js/TypeScript are local project dependencies installed by `npm ci`.
 After accepting your GitHub repository invitation:
 
 ```powershell
-git clone --branch main https://github.com/nahidf_microsoft/claude-master-class.git
+git clone --branch main https://github.com/nahidfar/claude-master-class.git
 Set-Location .\claude-master-class
 npm ci
 if (-not (Test-Path .env.local)) {

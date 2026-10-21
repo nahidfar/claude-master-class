@@ -54,7 +54,7 @@ or an instructor-authorized ZIP before class; knowing the URL alone is not enoug
 **Clone the standalone starter:**
 
 ```powershell
-git clone --branch main https://github.com/nahidf_microsoft/claude-master-class.git
+git clone --branch main https://github.com/nahidfar/claude-master-class.git
 Set-Location .\claude-master-class
 ```
 
