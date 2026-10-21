@@ -1,0 +1,41 @@
+{
+  "name": "Alex Morgan",
+  "headline": "Aspiring data analyst who makes operational data useful",
+  "pitch": "I turn spreadsheet data into clear reports and practical questions. I am developing SQL through independent projects and looking for opportunities to contribute to an analytics team.",
+  "location": "Your city",
+  "initials": "AM",
+  "experience": [
+    {
+      "title": "Operations volunteer",
+      "organization": "Community project - fictional example",
+      "period": "2025 - 2026",
+      "summary": "Organized a shared activity tracker and documented how to keep the records consistent."
+    }
+  ],
+  "skills": {
+    "strong": ["Spreadsheets", "Written communication", "Documentation"],
+    "developing": ["SQL", "Data visualization"],
+    "learning": ["Python"]
+  },
+  "projects": [
+    {
+      "title": "Support activity dashboard",
+      "context": "Personal project with synthetic data",
+      "summary": "Grouped sample support tickets by category and built a spreadsheet dashboard with three clearly defined KPIs.",
+      "evidence": "A reproducible workbook and a short explanation of metric definitions.",
+      "tools": ["Excel", "Data validation"]
+    },
+    {
+      "title": "SQL practice notebook",
+      "context": "Independent learning",
+      "summary": "Joined two sample datasets and checked row counts and duplicate keys.",
+      "evidence": "Saved queries with expected results and notes about join assumptions.",
+      "tools": ["SQL", "Documentation"]
+    }
+  ],
+  "education": ["Add your real education, training, or certifications here."],
+  "contact": {
+    "email": "hello@example.com",
+    "linkedin": "https://www.linkedin.com/"
+  }
+}
