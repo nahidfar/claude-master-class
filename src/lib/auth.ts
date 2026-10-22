@@ -1,6 +1,6 @@
 export class AuthenticationNotImplementedError extends Error {
   constructor() {
-    super("Authentication is not implemented yet. Complete exercises/00-authentication.md. Private access remains blocked.");
+    super("Authentication is not implemented yet. Follow the instructor's guidance during class. Private access remains blocked.");
     this.name = "AuthenticationNotImplementedError";
   }
 }

@@ -9,10 +9,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "typecheck": "tsc --noEmit",
-    "test": "node --experimental-strip-types --test tests/*.test.ts",
-    "test:http": "node --test tests/starter-http.mjs",
-    "preflight": "npm test && npm run lint && npm run build && npm run typecheck && npm run test:http"
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "next": "16.2.6",

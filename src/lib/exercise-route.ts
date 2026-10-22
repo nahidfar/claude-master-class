@@ -13,7 +13,7 @@ export async function exerciseRoute(request: Request, id: ToolId): Promise<NextR
   const tool = tools.find((item) => item.id === id);
   if (!tool) throw new Error(`Unknown exercise route: ${id}`);
   return NextResponse.json(
-    { error: `${tool.title} is not implemented yet. Complete exercises/${tool.exercise}. No AI request was made.` },
+    { error: `${tool.title} is not implemented yet. Follow the instructor's guidance during class. No AI request was made.` },
     { status: 501 },
   );
 }

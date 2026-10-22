@@ -1,7 +1,7 @@
 export const tools = [
-  { id: "fit-analyzer", title: "Job Fit Analyzer", exercise: "01-job-fit.md", description: "Compare a JD with verified profile evidence; report matches, gaps, and next actions." },
-  { id: "cover-letter", title: "Cover Letter Generator", exercise: "02-cover-letter.md", description: "Draft a company-specific letter without inventing qualifications." },
-  { id: "career-plan", title: "Interview Prep / Study Plan", exercise: "03-career-plan.md", description: "Prepare for an interview or turn role gaps into a realistic four-week plan." },
+  { id: "fit-analyzer", title: "Job Fit Analyzer", description: "Compare a JD with verified profile evidence; report matches, gaps, and next actions." },
+  { id: "cover-letter", title: "Cover Letter Generator", description: "Draft a company-specific letter without inventing qualifications." },
+  { id: "career-plan", title: "Interview Prep / Study Plan", description: "Prepare for an interview or turn role gaps into a realistic four-week plan." },
 ] as const;
 
 export type ToolId = (typeof tools)[number]["id"];
