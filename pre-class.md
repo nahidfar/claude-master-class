@@ -8,7 +8,7 @@ It works on **Mac and Windows**. Where a step differs, both are shown.
 | 1 | VS Code | Where you build |
 | 2 | GitHub account | Where your code lives |
 | 3 | One coding assistant | Writes the code with you |
-| 4 | Git + the course code | Your copy of the project |
+| 4 | Git + the masterclass code | Your copy of the project |
 | 5 | Node.js + a check run | Runs the sample website on your laptop |
 | 6 | AI API key with $10 credit | Powers your website's three AI tools in class |
 | 7 | Your resume and a job description | What you build from in class |
@@ -58,7 +58,7 @@ The entry-level plan is enough for class.
 **Check it works:** send `Hello, can you see my files?` in the assistant's chat. It should reply.
 When it asks for permission to edit a file or run a command, read what it wants to do, then allow it.
 
-## 4. Get the Course Code
+## 4. Get the Masterclass Code
 
 **The fast way.** Open VS Code with any folder you keep projects in (**File -> Open Folder**,
 for example `Documents`). Paste this into your coding assistant's chat:
