@@ -1,0 +1,3 @@
+# Keep self-contained course documents out of GitHub language statistics.
+docs/*.html linguist-documentation
+docs/slides/*.html linguist-documentation
