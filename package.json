@@ -9,10 +9,16 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "test": "node --experimental-strip-types --test tests/*.test.ts",
+    "test:http": "node --test tests/starter-http.mjs",
+    "preflight": "npm test && npm run lint && npm run build && npm run typecheck && npm run test:http"
   },
   "dependencies": {
-    "next": "16.2.6",
+    "@anthropic-ai/sdk": "^1.1.0",
+    "@google/genai": "^2.31.0",
+    "next": "16.4.2",
+    "openai": "^7.43.0",
     "react": "19.2.4",
     "react-dom": "19.2.4"
   },
@@ -21,7 +27,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
-    "eslint-config-next": "16.2.6",
+    "eslint-config-next": "16.4.2",
     "typescript": "^5"
   }
 }

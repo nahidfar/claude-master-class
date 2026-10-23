@@ -1,8 +1,10 @@
 "use client";
 
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 
 export default function LogoutButton() {
+  const router = useRouter();
   const [error, setError] = useState("");
   const [busy, setBusy] = useState(false);
 
@@ -12,7 +14,8 @@ export default function LogoutButton() {
     try {
       const response = await fetch("/api/auth", { method: "DELETE" });
       if (!response.ok) throw new Error(`Logout failed (${response.status}).`);
-      window.location.assign("/login");
+      router.replace("/login");
+      router.refresh();
     } catch (error) {
       console.error("Logout request failed:", error);
       setError("Sign-out failed. Please retry.");

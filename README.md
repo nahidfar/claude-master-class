@@ -1,7 +1,7 @@
 # Student Portfolio Starter
 
 **Start with the [numbered setup instructions](pre-class.md).**
-They cover installing VS Code, GitHub sign-in, Node.js/npm, cloning, testing,
+They cover installing VS Code, GitHub sign-in, a coding assistant, an AI key, Node.js/npm, cloning, testing,
 and bringing your resume PDF to class.
 
 Already completed setup? Open this folder in VS Code and run:
@@ -23,4 +23,4 @@ Keep `src/`, `data/`, package files, project configuration, `.gitignore`,
 
 `npm ci` creates `node_modules/`; Next.js creates build/type files.
 Do not commit or distribute those generated files, secrets, or raw resumes.
-Course handouts and instructor tests are kept outside this student starter.
+The class exercises are in `exercises/`, the checks in `tests/`, and the class slides in `slides/`.
