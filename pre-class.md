@@ -112,6 +112,7 @@ what passed and anything I still need to do.
 2. Close and reopen VS Code, open **Terminal -> New Terminal** in `my-portfolio`, and run:
 
 ```
+npm config get registry
 node --version
 npm --version
 npm ci
@@ -121,6 +122,18 @@ npm run dev
 
 `npm ci` installs the app's libraries, **not npm itself**. There is no separate command to install npm.
 **Windows only:** if PowerShell blocks `npm.ps1`, use `npm.cmd` instead of `npm`.
+
+The first command shows where npm downloads packages. The repository lockfile uses the standard
+public npm registry and also works with compatible company or school mirrors. If `npm ci` reports
+`404 Not Found` from a custom package feed, do not delete the lockfile. If your network permits
+public npm access, retry just that installation with:
+
+```
+npm ci --registry=https://registry.npmjs.org/
+```
+
+On a managed network that blocks public npm, share the complete error with your instructor or
+support contact so the mirror can be checked.
 
 **Pass:** Node is 22.18+, the checks in `npm run preflight` finish without errors, and the sample
 portfolio opens at the local URL, usually **http://localhost:3000**. Stop the server with Ctrl+C.

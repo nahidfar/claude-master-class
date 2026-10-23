@@ -15,10 +15,10 @@
     "preflight": "npm test && npm run lint && npm run build && npm run typecheck && npm run test:http"
   },
   "dependencies": {
-    "@anthropic-ai/sdk": "^1.1.0",
-    "@google/genai": "^2.31.0",
+    "@anthropic-ai/sdk": "0.135.0",
+    "@google/genai": "2.30.0",
     "next": "16.4.2",
-    "openai": "^7.43.0",
+    "openai": "7.34.0",
     "react": "19.2.4",
     "react-dom": "19.2.4"
   },
@@ -29,5 +29,8 @@
     "eslint": "^9",
     "eslint-config-next": "16.4.2",
     "typescript": "^5"
+  },
+  "overrides": {
+    "@opentelemetry/api": "1.9.0"
   }
 }
